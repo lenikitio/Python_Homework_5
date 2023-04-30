@@ -8,6 +8,7 @@
 #     4
 
 def sum(a: int, b: int) -> int:
+    '''Суммирование двух чисел методом рекурсии'''
     if a == 0:
         return b
     return sum(a - 1, b + 1)
